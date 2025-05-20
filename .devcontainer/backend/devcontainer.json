@@ -3,7 +3,7 @@
   "name": "Backend",
   "dockerComposeFile": ["../../docker-compose.yaml"],
   "workspaceFolder": "/app",
-  "forwardPorts": [8000],
+  "forwardPorts": [8005],
   "customizations": {
     "vscode": {
       "settings": {
