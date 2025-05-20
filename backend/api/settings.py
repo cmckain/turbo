@@ -16,6 +16,8 @@ DEBUG = environ.get("DEBUG", "") == "1"
 
 ALLOWED_HOSTS = ["localhost", "api", "django.coolify.projectunity.io"]
 
+CSRF_TRUSTED_ORIGINS = ["django.coolify.projectunity.io"]
+
 WSGI_APPLICATION = "api.wsgi.application"
 
 ROOT_URLCONF = "api.urls"
